@@ -1,0 +1,78 @@
+#faq {
+    padding-bottom: 25px;
+}
+.panel-group .panel-default .panel-heading {
+    background-color: #fff;
+    border-color: #dadada;
+}
+.panel-group .panel-default .panel-heading a.accordion-toggle {
+    position: relative;
+}
+.panel-group .panel-default .panel-heading a.accordion-toggle h4.panel-title {
+    font-size: 20px;
+    color: #979797;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.panel-group .panel-default .panel-heading a.accordion-toggle i {
+    color: #39b54a;
+}
+.panel-group .panel-default .panel-heading a.accordion-toggle span {
+    padding-left: 20px;
+    color: #000;
+}
+.panel-group .panel-default .panel-heading a.accordion-toggle .accordion-icon {
+    float: left;
+    /*height: 0px;*/
+    height: 16px;
+    width: 16px;
+    display: block;
+    padding: 0;
+    margin-right: 10px;
+    position: relative;
+    transition: 0.4s all;
+}
+.panel-group .panel-default .panel-heading a.accordion-toggle .accordion-icon:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 0px;
+    left: 50%;
+    top: 10px;
+    background: #39b54a;
+    transition: 0.4s all;
+
+}
+.panel-group .panel-default .panel-heading a.accordion-toggle .accordion-icon:before {
+    position: absolute;
+    content: " ";
+    display: block;
+    width: 17px;
+    height: 2px;
+    left: 0px;
+    top: 50%;
+    background: #39b54a;
+    transition: 0.4s all;
+}
+.panel-group .panel-default .panel-heading a.accordion-toggle.collapsed .accordion-icon:after {
+    width: 2px;
+    height: 17px;
+    left: 50%;
+    top: 0;
+    transition: 0.4s all;;
+}
+
+.panel-group .panel-default .panel-heading a.accordion-toggle:focus {
+    text-decoration: none !important;
+}
+.panel-group .panel-default .panel-heading a.accordion-toggle:hover {
+    text-decoration: none !important;
+}
+.panel-group .panel-default .panel-collapse .panel-body p {
+    font-size: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 50px;
+}
+.panel-group .pannel-top {
+    margin-top: 15px !important;
+}
